@@ -1,0 +1,19 @@
+{
+	"extends": "stylelint-config-sass-guidelines",
+  	"plugins": [
+    	"stylelint-scss"
+  	],
+  	"rules": {
+  		"order/order": [
+			"custom-properties",
+			"declarations"
+		],
+    	"indentation": null,
+	    "selector-no-id": null,
+	    "rule-empty-line-before": null,
+	    "order/properties-alphabetical-order": null,
+	    "max-nesting-depth": 10,
+	    "no-missing-end-of-source-newline": null,
+	    "color-named": null,
+  	}
+}
